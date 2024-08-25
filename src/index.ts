@@ -14,7 +14,7 @@ async function app() {
 
     logToConsole("Starting Conway's Game Of Life...\n");
 
-    // Only supports a 40x40 board for sanity checking with seeds close to (0, 0)
+    // printGameIterationDEBUG:  Only supports a 40x40 board for sanity checking with seeds close to (0, 0)
     // printGameIterationDEBUG(aliveCells, "Initial Seed");
 
     for (let i = 1; i <= GAME_ITERATIONS; i++) {
