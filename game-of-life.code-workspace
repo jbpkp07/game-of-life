@@ -1,6 +1,13 @@
 {
     "extensions": {
-        "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+        "recommendations": [
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "github.copilot",
+            "github.copilot-chat",
+            "xabikos.javascriptsnippets",
+            "jerrygoyal.shortcut-menu-bar"
+        ]
     },
     "folders": [{ "path": "." }],
     "settings": {
